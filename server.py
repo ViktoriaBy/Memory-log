@@ -30,7 +30,7 @@ app = Flask(__name__)
 db = SQLAlchemy()
 
 
-UPLOAD_FOLDER = 'uploads/'
+UPLOAD_FOLDER = 'static/uploads/'
 
 
 UNAME = os.getenv("UNAME")
