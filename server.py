@@ -36,8 +36,8 @@ PWD = os.getenv("PWD")
 DATABASE_URL = os.environ.get('DATABASE_URL')
 
 # app.config['SQLALCHEMY_DATABASE_URI'] = f"postgresql://{UNAME}:{PWD}@localhost/account" or os.environ.get('DATABASE_URL')
-app.config[DATABASE_URL]
-# app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://ofvzknqhbuvmyb:89071732f91e52ee4884f1a9a76dba51481267665bbfbcca86dab5f15aae8a9b@ec2-3-229-252-6.compute-1.amazonaws.com:5432/d1i63ch8v52drc"
+# app.config[DATABASE_URL]
+app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://ofvzknqhbuvmyb:89071732f91e52ee4884f1a9a76dba51481267665bbfbcca86dab5f15aae8a9b@ec2-3-229-252-6.compute-1.amazonaws.com:5432/d1i63ch8v52drc"
 # SQLALCHEMY_DATABASE_URI = os.environ['DATABASE_URL']
 db.app = app
 db.init_app(app)
