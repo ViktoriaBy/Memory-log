@@ -18,6 +18,7 @@ from flask_sqlalchemy import SQLAlchemy
 
 from datetime import date
 
+from os.path import join, dirname, realpath
 import os
 import uuid
 from dotenv import load_dotenv
@@ -29,7 +30,8 @@ app = Flask(__name__)
 db = SQLAlchemy()
 
 
-UPLOAD_FOLDER = 'static/uploads/'
+# UPLOAD_FOLDER = 'static/uploads/'
+UPLOAD_FOLDER = "join(dirname(realpath(__file__)), 'static/uploads/..')"
 
 UNAME = os.getenv("UNAME")
 PWD = os.getenv("PWD")
