@@ -1,0 +1,147 @@
+body{
+height: 100vh;
+cursor: crosshair;
+background-color: #fca311;
+}
+
+.navbar{
+    background-color:#14213d;
+    color:white;
+}
+
+.navbar-brand{
+    font-family: 'Rampart One', cursive;
+    font-size: 35px;
+    color: #fca311;
+}
+
+.navbar-brand:hover{
+    color: white;
+}
+
+#footer-link{
+    text-decoration: none;
+    color:white;
+}
+    
+
+#footer-link:hover{
+    font-family: 'Fredoka', sans-serif;
+    color: #fca311;
+}
+    
+.footer-box{
+    background-color:#14213d;
+    color:white;
+}
+
+.icons-btn{
+font-size: 20px;
+text-align: center;
+text-decoration: none;
+margin-bottom: 20px;
+}
+
+#trash-btn{
+font-size: 25px;
+padding: 10px;
+margin-right: 20px;
+text-decoration: none;
+color:black;
+}
+
+#trash-btn:hover{
+filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+cursor:crosshair;
+}
+
+#pen-btn{
+    font-size: 25px;
+    padding: 10px;
+    margin-right: 20px;
+    text-decoration: none;
+    color:black;
+}
+
+#pen-btn:hover{
+filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+}
+
+.title{
+text-align: center;
+font-family: 'Fredoka', sans-serif;  
+font-size: 40px;  
+}
+
+.title-word{
+animation: color-animation 4s linear infinite;
+}
+
+.title-word-1 {
+    --color-1: #DF8453;
+    --color-2: #3D8DAE;
+    --color-3: #E4A9A8;
+}
+
+.title-word-2 {
+    --color-1: #DBAD4A;
+    --color-2: #ACCFCB;
+    --color-3: #17494D;
+}
+
+.title-word-3 {
+    --color-1: #ACCFCB;
+    --color-2: #E4A9A8;
+    --color-3: #ACCFCB;
+}
+
+.title-word-4 {
+    --color-1: #3D8DAE;
+    --color-2: #DF8453;
+    --color-3: #E4A9A8;
+}
+
+@keyframes color-animation {
+    0%    {color: var(--color-1)}
+    32%   {color: var(--color-1)}
+    33%   {color: var(--color-2)}
+    65%   {color: var(--color-2)}
+    66%   {color: var(--color-3)}
+    99%   {color: var(--color-3)}
+    100%  {color: var(--color-1)}
+}
+
+
+.upload-title{
+    font-family: 'Fredoka', sans-serif;  
+    font-size: 35px;
+}
+
+
+#upload-card{
+box-shadow: 5px 10px 8px #414040;
+padding: 20px;
+color: rgb(46, 23, 23); 
+}
+
+#updateModal{
+    font-family: 'Rampart One', cursive;
+    font-size: 35px;
+    color: #14213d;
+}
+
+.card-title{
+    font-family: 'Fredoka', sans-serif;  
+    font-size: 25px;
+}
+
+#card-body{
+    margin: auto;
+}
+
+#btn-card{
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+    margin-bottom: 8%;
+}

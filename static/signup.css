@@ -1,0 +1,109 @@
+body{
+    height: 100vh;
+    cursor: crosshair;
+    background-color: #fca311;
+    }
+    
+
+
+.navbar-brand{
+    font-family: 'Rampart One', cursive;
+    font-size: 35px;
+    color: #fca311;
+    margin-left: 20%;
+}
+    
+.navbar-brand:hover{
+    color: white;
+}
+
+.navbar{
+    background-color:#14213d;
+    color:white;
+}
+
+
+.height {
+    height: 100vh;
+}
+
+.card {
+    box-shadow: 5px 10px 8px #3e3e3e;
+    padding: 20px;
+    color: rgb(46, 23, 23)
+}
+
+
+.form-input {
+    position: relative;
+    margin-bottom: 10px;
+    margin-top: 10px
+}
+
+.form-input i {
+    position: absolute;
+    font-size: 18px;
+    top: 15px;
+    left: 10px
+}
+
+.form-control {
+    height: 50px;
+    border-color: #4f63e7;
+    text-indent: 24px;
+    font-size: 15px
+}
+
+
+.form-check-label {
+    margin-top: 2px;
+    font-size: 14px
+}
+
+.signup {
+    height: 50px;
+    font-size: 14px
+}
+
+.signup-title{
+    font-family: 'Fredoka', sans-serif;
+    font-size: 30px;
+}
+
+.login-title{
+    font-family: 'Fredoka', sans-serif;
+    font-size: 30px; 
+}
+
+.social {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(3, 3, 3);
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer
+}
+
+.social:hover {
+    background-color: white;
+    border-color: #fca311;
+}
+
+
+#footer-link{
+    text-decoration: none;
+    color:white;
+}
+
+#footer-link:hover{
+    font-family: 'Fredoka', sans-serif;
+    color: #fca311;
+}
+
+.footer-box{
+    background-color:#14213d;
+    color:white;
+}
