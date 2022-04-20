@@ -30,8 +30,8 @@ app = Flask(__name__)
 db = SQLAlchemy()
 
 
-UPLOAD_FOLDER = 'static/uploads/'
-basedir = os.path.abspath(os.path.dirname(__file__))
+UPLOAD_FOLDER = 'uploads/'
+
 
 UNAME = os.getenv("UNAME")
 PWD = os.getenv("PWD")
@@ -188,7 +188,7 @@ def main():
         
         # filename = secure_filename(f.filename
         filename = 'img_' + str(uuid.uuid4()) + '.jpg'    
-        f.save(os.path.join(basedir, app.config['UPLOAD_FOLDER'], filename))
+        f.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
         
         new_img = Image(user_id=current_user.user_id, 
                 img_name=filename, 
