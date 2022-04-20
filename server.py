@@ -4,12 +4,8 @@
 #                                                                                            #
 ##############################################################################################
 
-# from tkinter import image_types
-from socket import RDS_CMSG_RDMA_ARGS
-from winreg import REG_REFRESH_HIVE
 from flask import Flask, redirect, render_template, request, url_for, flash
 from flask_wtf import FlaskForm
-from sqlalchemy import desc
 from wtforms import StringField, PasswordField, SubmitField, DateField, HiddenField
 from wtforms.validators import InputRequired, Length
 from flask_login import LoginManager, login_user, login_required, UserMixin, current_user, logout_user, user_accessed
